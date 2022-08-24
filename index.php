@@ -38,6 +38,4 @@ border: 6px solid grey;
 </body>
 </html> 
 
-header('Content-type; text/plain');
-echo $response;
-?>
+ 
