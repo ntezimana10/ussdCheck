@@ -34,5 +34,5 @@ $balance="rwf 50000";
 
 $response="END your balance is".$balance;
 }
- 
+ echo $response;
 ?>
