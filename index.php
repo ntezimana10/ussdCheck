@@ -7,11 +7,11 @@ $phoneNumber=$_POST["phoneNumber"];
 $text=$_POST["text"];
 if($text==""){
 
-$response= "CON what would you want to check \n";
-    echo "<br>";
-$response.= "1. My Account NO \n";
-    echo "<br>";
-$response.= "2. My Account balance";
+$response= 'CON what would you want to check \n';
+     
+$response.= '1. My Account NO \n';
+    
+$response.= '2. My Account balance';
 }
 else if($text=="1"){
     
@@ -37,6 +37,7 @@ $balance="rwf 50000";
 $response="END your balance is".$balance;
     
 }
+header("Content-type; text/plain");
  echo $response;
-echo "<br>";
+ 
 ?>
